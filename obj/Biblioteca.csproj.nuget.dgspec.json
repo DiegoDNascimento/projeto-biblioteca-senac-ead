@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\Downloads\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego\\Downloads\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\Downloads\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Diego\\Downloads\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\Downloads\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Diego\\Desktop\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,8 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
             },
