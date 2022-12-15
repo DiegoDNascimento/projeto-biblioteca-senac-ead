@@ -11,6 +11,11 @@ namespace Biblioteca.Controllers
     {
         public IActionResult Cadastro()
         {
+            if(string.IsNullOrEmpty(HttpContext.Session.GetString("user")))
+            {
+                Request.HttpContext.Response.Redirect("/Home/Login");
+            }
+
             LivroService livroService = new LivroService();
             EmprestimoService emprestimoService = new EmprestimoService();
 
@@ -37,6 +42,11 @@ namespace Biblioteca.Controllers
 
         public IActionResult Listagem(string tipoFiltro, string filtro)
         {
+            if(string.IsNullOrEmpty(HttpContext.Session.GetString("user")))
+            {
+                Request.HttpContext.Response.Redirect("/Home/Login");
+            }
+            
             FiltrosEmprestimos objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))
             {
