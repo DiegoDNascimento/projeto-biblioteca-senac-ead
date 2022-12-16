@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj": {}
+    "D:\\x\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj": {
+    "D:\\x\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "D:\\x\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Diego\\Desktop\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "D:\\x\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\Desktop\\Biblioteca\\obj\\",
+        "outputPath": "D:\\x\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
