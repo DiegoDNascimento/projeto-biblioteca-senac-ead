@@ -33,21 +33,17 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Login(string login, string senha)
         {
-            if(login == null && senha == null)
+            if(Autenticacao.verificaLoginSenha(login,senha,this))
             {
-                ViewData["Erro"] = "Preencha Todos os Campos";
-                return View();
+                return RedirectToAction("Index");
             }
-            else if(login != "admin" || senha != "123")
+            else 
             {
+                
                 ViewData["Erro"] = "Login ou Senha Inválida";
                 return View();
             }
-            else
-            {
-                HttpContext.Session.SetString("user", "admin");
-                return RedirectToAction("Index");
-            }
+            
         }
 
         public IActionResult Privacy()
